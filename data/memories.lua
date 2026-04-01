@@ -9,12 +9,12 @@ local starterMemories = {
   {
     id    = 1,
     x     = 140,  y = 290,
-    label = "Jag älskar dig",
-    text  = "Första gången jag sa 'jag älskar dig' på riktigt. Vi satt i min säng, jag mot fönsterkarmen och du framför. Det blev tyst en stund. Det var första gången jag sa det till någon. Till dig.",
+    label = "First Snow",
+    text  = "That perfect moment when the first snow of winter falls and everything becomes quiet. The world feels brand new, and for a moment, all your worries seem to pause.",
     style = {
-      color      = {0.90, 0.10, 0.10},   -- deep red
+      color      = {0.90, 0.95, 1.00},   -- pale blue
       spikeCount = 10,
-      radius     = 15,                   -- ★ slightly larger
+      radius     = 15,
     },
   },
 
@@ -24,8 +24,8 @@ local starterMemories = {
   {
     id    = 2,
     x     = 460,  y = 180,
-    label = "Titta på stjärnorna",
-    text  = "Kullen där vi jagade stjärnfall. Ingen belysning, en filt, samma kalla luft. Fingrarna frös men vi stannade ändå. Jag var ute detta året igen och kollade, men allt jag kunde tänka på var att jag ville göra det med dig.",
+    label = "Stargazing Night",
+    text  = "Finding a place far from city lights to see the stars. The vastness of it all makes you feel small, but in a comforting way. Reminds you that you're part of something infinite.",
     style = {
       color  = {0.70, 0.85, 1.00},      -- pale blue
       radius = 12,
@@ -38,8 +38,8 @@ local starterMemories = {
   {
     id    = 3,
     x     = 320,  y = 440,
-    label = "Elscoot i Värnamo",
-    text  = "Elscootrarna. Vi lämnade mobilerna hemma och drog ut. Körde vilse, skrattade, och hittade hem (efter lite för lång tid). Jag går fortfarande förbi CG ibland bara för att minnas när vi stod där och pratade innan vi drog ut på 'äventyret'.",
+    label = "Unexpected Adventure",
+    text  = "That day you decided to just go somewhere without a plan. Got a little lost, laughed at the situation, and ended up discovering a hidden gem that became your new favorite spot.",
     style = {
       color  = {0.25, 0.85, 0.60},      -- fresh mint
       radius = 10,
@@ -52,8 +52,8 @@ local starterMemories = {
   {
     id    = 4,
     x     = 620,  y = 325,
-    label = "Digitala brev",
-    text  = "Jag skrev aldrig god morgon/god natt innan dig. Men du ändrade på det. Du fick det att betyda något för mig. Yosh Turner. Celibat. Gallblåsan. Små hjärtan. 'Kan du komma neeer en snabbis?<3' och 'Får jag ta matlådan?<3'. Jag saknar det som fan.",
+    label = "Late Night Conversations",
+    text  = "The best conversations happen when you're not trying. Just talking about everything and nothing at 2am. Those moments when you realize how much you value just listening and being heard.",
     style = {
       color  = {1.00, 0.78, 0.90},      -- pastel pink
       radius = 11,
@@ -66,8 +66,8 @@ local starterMemories = {
   {
     id    = 5,
     x     = 720,  y = 525,
-    label = "Humor",
-    text  = "Vår humor har alltid varit ELITE. Alla internskämt som jag fortfarande säger för mig själv ibland och påminner om dig. Det är så många memes som jag vill skicka till dig, som jag bara kan skicka till dig.",
+    label = "Inside Jokes",
+    text  = "Those ridiculous inside jokes that only make sense to a small circle. You still laugh at them randomly, even years later. The kind of humor that bonds people together.",
     style = {
       color  = {1.00, 0.90, 0.40},      -- sunny yellow
       radius = 10,
@@ -80,8 +80,8 @@ local starterMemories = {
   {
     id    = 6,
     x     = 880,  y = 705,
-    label = "Låtar",
-    text  = "Vi har alltid haft amaze musiksmak, punkt. Bara när vi satt i vardagsrummet och visade varandra nya låtar som vi hittat på Spotify(med amerikansk brytning), eller bara allmänt satt och lyssnade. Nu låter för många låtar som du.",
+    label = "Discovering New Music",
+    text  = "That album that just speaks to you. Play it on repeat, learn every lyric, and it becomes the soundtrack to a specific time in your life. Music has that power to capture moments.",
     style = {
       color  = {0.60, 0.55, 1.00},      -- soft violet
       radius = 7,
@@ -94,8 +94,8 @@ local starterMemories = {
   {
     id    = 7,
     x     = 955,  y = 325,
-    label = "The Upside Down",
-    text  = "Alla serier och filmer vi kollade på eller försökte kolla på. Stranger Things, Family Guy, Insidious, The Conjuring. Jag saknar som fan att kolla på allt med dig. Bara att sitta och äta frukost, dricka kaffe och kolla på Family Guy.",
+    label = "Cozy Night In",
+    text  = "Sometimes the best night is staying in. A good show, comfort food, warm blankets. No need to go anywhere. Just contentment in the simplicity of it all.",
     style = {
       color  = {0.50, 0.40, 0.80},      -- midnight purple
       radius = 10,
@@ -108,8 +108,8 @@ local starterMemories = {
   {
     id    = 8,
     x     = 1200, y = 895,
-    label = "Sug",
-    text  = "Spontangrejerna: baka mitt i natten, gå i snöstorm för lite snacks. Så onödigt men ändå kul att minnas. Jag älskar dom minnena för att de är med dig.",
+    label = "Midnight Baking",
+    text  = "Impulsively deciding to bake something at 2am. Making a mess, laughing at mistakes, and somehow it always tastes better when made with spontaneity and a little chaos.",
     style = {
       color  = {1.00, 0.70, 0.45},      -- biscuit orange
       radius = 6,
@@ -122,8 +122,8 @@ local starterMemories = {
   {
     id    = 9,
     x     = 600,  y = 1095,
-    label = "Onykter Mat",
-    text  = "När vi var fulla och du bara slängde ihop något som alltid blev ill-gott. Taco-kyckling-wrapen du gjorde, chefens puss, och allt däremellan.",
+    label = "Comfort Food",
+    text  = "That one meal that just makes everything feel a little better. Not fancy, not complicated. Just the kind of food that feels like a warm hug from the inside.",
     style = {
       color  = {0.55, 0.95, 0.75},      -- light jade
       radius = 8,
@@ -136,8 +136,8 @@ local starterMemories = {
   {
     id    = 10,
     x     = 700,  y = 1230,
-    label = "Till affären",
-    text  = "När någon av oss skulle till affären och alltid frågade: 'Ska jag köpa med något till dig?' Jag tänker fortfarande att jag ska ta med en Celsius till dig.",
+    label = "Small Gestures",
+    text  = "The little things matter most. A text checking in, remembering your favorite drink, asking how your day was. Kindness in small packages means everything.",
     style = {
       color  = {1.00, 0.40, 0.80},      -- neon magenta
       radius = 10,
@@ -150,8 +150,8 @@ local starterMemories = {
   {
     id    = 11,
     x     = 1100, y = 1590,
-    label = "Fester",
-    text  = "Jag gillade våra fester. Snusdosa-klistermärken i ansiktet. Värnamodagarna. Hemmakvällar med musik och skratt. Point Street Boys och allt sånt.",
+    label = "Good Company",
+    text  = "People who make you laugh without trying. Where there's never an awkward silence, just comfortable presence. Those are the people who matter most.",
     style = {
       color  = {0.25, 0.90, 0.55},      -- emerald green
       radius = 9,
@@ -164,8 +164,8 @@ local starterMemories = {
   {
     id    = 12,
     x     = 1450, y = 1190,
-    label = "Vinna på lotto?",
-    text  = "Vi pratade om vad vi gör först om vi vinner. Hjälpa våra närmaste, vad vi skulle köpa, vart vi skulle resa. Det var bara prat, men jag levde i det. Också en sån sak som sa så mycket om din personlighet, hur underbar du är som människa.",
+    label = "Dreams and Plans",
+    text  = "Those conversations about the future. What you want to achieve, where you want to go, who you want to become. Hope is a powerful thing, especially when shared with others.",
     style = {
       color  = {1.00, 0.65, 0.50},      -- playful peach
       radius = 10,
@@ -178,8 +178,8 @@ local starterMemories = {
   {
     id    = 13,
     x     = 1750, y = 1990,
-    label = "Retas med sång",
-    text  = "Du sjöng och jag sjöng en annan låt mitt i för att det lät som någon jag kände igen. Sen började du göra likadant mot mig. Och det blev bara en grej, som jag inte ens vet om du tänkte på. Men jag kommer ihåg det och jag saknar det.",
+    label = "Silly Moments",
+    text  = "The embarrassing things you do when you're being yourself around someone. Dancing like nobody's watching, singing off-key, making weird voices. Those unguarded moments.",
     style = {
       color  = {0.90, 0.90, 0.95},      -- pale silver
       radius = 9,
@@ -192,37 +192,37 @@ local starterMemories = {
   {
     id    = 14,
     x     = 2020, y = 1430,
-    label = "Ditt leende, ditt skratt, din röst",
-    text  = "Jag visste inte att man faktiskt kunde sakna någon så det gör fysiskt ont i kroppen. Jag hör dig fortfarande: uttalen, rösterna, skratten, allt. Jag kan inte glömma din röst.",
+    label = "Ocean Breeze",
+    text  = "Standing at the edge of the ocean, feeling the vastness of it. The sound of waves, the salt in the air, that sense of freedom and wonder that the sea always brings.",
     style = {
       color  = {1.00, 0.80, 0.60},      -- soft amber
-      radius = 11,                      -- ★ slightly larger
+      radius = 11,
     },
   },
 
   ------------------------------------------------------------------
-  --  15  (oförändrad – din text)
+  -- 15
   ------------------------------------------------------------------
   {
     id    = 15,
-    x     = 2260, y = 1180,            -- ned lite, ganska nära
-    label = "Dina Mardrömmar",
-    text  = "När du vaknade och var ledsen och sa att jag aldrig får dö först, att jag ska sluta vara otrogen osv. Det kanske inte verkade så men det fick mig att verkligen känna hur mycket du älskade mig och det kanske låter fel, men jag saknar det. Att höra din oro över att något skulle hända oss.",
+    x     = 2260, y = 1180,
+    label = "Quiet Mornings",
+    text  = "Waking up early before the world gets loud. Coffee, the sunrise, maybe a book. Just you and your thoughts, starting the day on your own terms.",
     style = {
-      color      = {0.20, 0.80, 0.95},  -- cyan sky
+      color  = {0.20, 0.80, 0.95},  -- cyan sky
       spikeCount = 8,
-      radius     = 9,
+      radius = 9,
     },
   },
 
   ------------------------------------------------------------------
-  --  16 (oförändrad)
+  -- 16
   ------------------------------------------------------------------
   {
     id    = 16,
-    x     = 2410, y = 1120,            -- lite ner igen (bryter sick-sack)
-    label = "Godnatt",
-    text  = "Varje dag du och Anette skrev godnatt till varandra, det är fortfarande något jag tänker på och undrar om ni har skrivit godnatt till varandra än. Något som jag tycker är så satans gulligt.",
+    x     = 2410, y = 1120,
+    label = "Learning Something New",
+    text  = "That feeling when you finally understand something you've been struggling with. The satisfaction of growth, even in small ways. Every day is a chance to learn.",
     style = {
       color  = {0.95, 0.50, 0.35},      -- coral
       radius = 13,
@@ -230,28 +230,28 @@ local starterMemories = {
   },
 
   ------------------------------------------------------------------
-  --  17 (oförändrad)
+  -- 17
   ------------------------------------------------------------------
   {
     id    = 17,
-    x     = 2680, y = 1580,            -- rejäl upp
-    label = "Paladins",
-    text  = "Kommer du ihåg när vi spelade sönder Paladins? När vi körde en fullgrupp och hade svinkul? Eller när vi satt och skulle spela med Coss och vårat nät dog konstaaant, men ändå envisades vi.",
+    x     = 2680, y = 1580,
+    label = "Video Game Nostalgia",
+    text  = "Games that shaped your childhood. Whether you're revisiting them or discovering them for the first time, there's something magical about digital worlds and adventure.",
     style = {
-      color      = {0.95, 0.90, 0.30},  -- warm gold
+      color  = {0.95, 0.90, 0.30},  -- warm gold
       spikeCount = 12,
-      radius     = 7,
+      radius = 7,
     },
   },
 
   ------------------------------------------------------------------
-  --  18 (oförändrad)
+  -- 18
   ------------------------------------------------------------------
   {
     id    = 18,
-    x     = 2875, y = 1750,            -- upp igen (två i rad)
-    label = "Contexto",
-    text  = "Jag saknar fortfarande att spela Contexto med dig. Du var 100% bättre än mig på det, men det var en av dom tyvärr få sakerna vi gjorde tillsammans som jag fortfarande vill göra.",
+    x     = 2875, y = 1750,
+    label = "Laughter",
+    text  = "That kind of laughing where your sides hurt and tears come to your eyes. The kind that's contagious, where everyone around you can't help but join in.",
     style = {
       color  = {0.65, 0.30, 0.95},      -- violet
       radius = 12,
@@ -259,13 +259,13 @@ local starterMemories = {
   },
 
   ------------------------------------------------------------------
-  --  19 (oförändrad)
+  -- 19
   ------------------------------------------------------------------
   {
     id    = 19,
-    x     = 3180, y = 930,             -- stor ned
-    label = "Let's Go",
-    text  = "Kommer ihåg när jag kollade igenom alla Pokémons på Pokemon Let's Go och du hade döpt hälften till weird-ass namn. Så fucking roligt och jag läste igenom dom ibland, bara startade spelet, inte för att spela men för att kolla vad du skrev. Kommer även ihåg den där shiny Charmander som jag snodde som fortfarande lever kvar i det.",
+    x     = 3180, y = 930,
+    label = "Rainy Days",
+    text  = "There's something cozy about rain. The sound, the smell, the way it makes you want to slow down. Perfect for staying in and doing absolutely nothing productive.",
     style = {
       color  = {0.30, 0.90, 0.40},      -- fresh green
       radius = 6,
@@ -273,13 +273,13 @@ local starterMemories = {
   },
 
   ------------------------------------------------------------------
-  --  20 (oförändrad)
+  -- 20
   ------------------------------------------------------------------
   {
     id    = 20,
-    x     = 3460, y = 980,             -- nästan plant (liten upp)
-    label = "Parry Hotter",
-    text  = "Jag saknar våra Harry Potter-maraton. Du fattar inte hur mycket jag saknar det och helt ärligt så kan jag inte kolla på det utan dig. Diagonally.",
+    x     = 3460, y = 980,
+    label = "Personal Growth",
+    text  = "Realizing how much you've changed over time. The person you were, the person you are, and the person you're becoming. Growth is beautiful and worth celebrating.",
     style = {
       color  = {0.90, 0.30, 0.50},      -- rose
       radius = 8,
@@ -287,56 +287,53 @@ local starterMemories = {
   },
 
   ------------------------------------------------------------------
-  --  21 (oförändrad)
+  -- 21
   ------------------------------------------------------------------
   {
     id    = 21,
-    x     = 3820, y = 620,             -- ytterligare ned (lång diagonal)
-    label = "Kalle",
-    text  = "Dom gånger du la din fot mot mitt ben för du var kall och jag sa kalle varje gång.",
+    x     = 3820, y = 620,
+    label = "Nature's Beauty",
+    text  = "Those moments when you stop and really notice the beauty around you. A sunset, wildflowers, the way light filters through trees. Nature is the best artist.",
     style = {
-      color      = {0.60, 0.70, 0.80},  -- slate blue/gray
+      color  = {0.60, 0.70, 0.80},  -- slate blue/gray
       spikeCount = 6,
-      radius     = 14,
+      radius = 14,
     },
   },
 
   ------------------------------------------------------------------
-  --  22 (oförändrad)
+  -- 22
   ------------------------------------------------------------------
   {
     id    = 22,
-    x     = 3920, y = 760,             -- ytterligare ned (lång diagonal)
-    label = "Hårutväxt",
-    text  = "Varje gång du var stolt och berätta om ditt hår. Hur den hade växt efter alla problem du hade haft med det. Jag älskade att lyssna på allt du pratade om, absolut allt.",
+    x     = 3920, y = 760,
+    label = "Self-Acceptance",
+    text  = "Coming to terms with who you are. Not trying to be someone else or apologizing for your quirks. Learning to be your own best friend rather than your worst critic.",
     style = {
-      color      = {0.20, 0.55, 0.70},  -- slate blue/gray
+      color  = {0.20, 0.55, 0.70},  -- slate blue/gray
       spikeCount = 6,
-      radius     = 12,
+      radius = 12,
     },
   },
 
   ------------------------------------------------------------------
-  --  23 (oförändrad)
+  -- 23
   ------------------------------------------------------------------
 {
   id    = 23,
   x     = 4100, y = 960,
-  label = "Tack För Allt",
+  label = "What Will You Remember?",
   text  = [[
-Emilia. Tack för allt du gjorde för mig. Tack för att du är du.
-Tack för att du fick mig att känna mig älskad. Jag är evigt ledsen
-för att jag inte var tillräcklig, för att jag inte kunde vara den
-personen som du behövde utav mig.
+This is your constellation of memories.
 
-Jag älskar dig så enormt och jag kommer alltid att göra det, vad som än händer.
+Every moment that made you smile, taught you something, or changed your perspective—they all matter. The big milestones and the small quiet moments that seem insignificant in the day but become precious when you look back.
 
-Jag hatar att jag inte är med dig på din systers bröllop, att jag inte kan se dina tårar av lycka, att inte vara där och dela det med dig.
-Jag hoppas att han upskattar det och blir lycklig av att se dig, precis som jag blir.
+Use this space to capture what matters to you.
+The memories you want to hold onto forever.
+The constellation of moments that make your life yours.
 
-Det är så många fler minnen som jag hade kunnat skriva om,
-men jag lämnar plats så att du kan skriva dina egna minnen.
-]],
+Add your own memories. Make this your story.
+  ]],
   style = {
     color      = {0.40, 0.15, 0.70},
     spikeCount = 6,
