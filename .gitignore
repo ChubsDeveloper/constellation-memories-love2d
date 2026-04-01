@@ -1,0 +1,45 @@
+# LÖVE 2D
+*.love
+love-*.exe
+*.fused.exe
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE & Editor
+.vscode/
+.idea/
+*.user
+*.sublime-project
+*.sublime-workspace
+.code/
+.classpath
+.project
+
+# Build outputs
+dist/
+build/
+*.exe
+*.dll
+
+# Temporary files
+*.tmp
+*.bak
+*.backup*
+debug*.lua
+
+# Logs
+*.log
+logs/
+
+# Test outputs
+test_results/
+coverage/
+
+# OS specific
+.env
+.env.local
